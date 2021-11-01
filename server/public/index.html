@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>WeChat WebApp</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="left-view">
+            <div class="me-profile">
+                <div class="profile-image">
+                    <img src="./user.jpg" alt="user.jpg">
+                </div>
+                <div class="profile-name"></div>
+            </div>
+            <div class="online-list">
+
+                <!-- <div class="online-user">
+                    <div class="profile-image-user">
+                    <img src="./user.jpg" alt="user.jpg">
+                    </div>
+                    <div class="profile-name-user">Mike</div>
+                </div>
+
+                <div class="online-user">
+                    <div class="profile-image-user">
+                    <img src="./user.jpg" alt="user.jpg">
+                    </div>
+                    <div class="profile-name-user">jessica</div> 
+                </div> -->
+
+            </div>
+        </div>
+
+        <div class="right-view">
+            <div class="chat-window">
+                <!-- <div class="chat join">Steve Joined the chat</div>
+                <div class="chat leave">Steve left the chat</div>
+                <div class="chat right">hello everyone.Nice to say hello</div>
+                <div class="chat left">Good Morning guys with warmth</div>
+                <div class="chat right">Life is great at my hand</div>
+                <div class="chat left">God is seeking for forgiving thier child</div> -->
+            </div>
+            <div class="text-input">
+                <input type="text">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js" integrity="sha512-zN6KYOtONNTOGXz0RkWX2EpavN9VdIs+2w+To+fhciFv83YA9maUpi2lzZWrOfKXdFIZZomWufBznkyHi3a8oQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const socket = io();
+        </script>
+    <script src="./script.js"></script>
+    <script src="./socket.js"></script>
+</body>
+</html>
